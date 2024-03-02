@@ -1,6 +1,7 @@
 #define ALLEGRO_STATICLINK
 
 #include <allegro.h>
+
 int main(void)
 {
     allegro_init();
