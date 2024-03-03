@@ -10,8 +10,9 @@ int main(void)
 
     install_keyboard();
 
-    textout_ex(screen, font, "", 1, 1, 10, -1);
-    textout_ex(screen, font, "Press [ESC] to quit.", 1, 12, 11, -1);
+    // TODO: output more allegro and system info
+    textout_ex(screen, font, allegro_id, 1, 1, 11, -1);
+    textout_ex(screen, font, "Press [ESC] to quit.", 1, 15, 10, -1);
 
     while(!key[KEY_ESC]);
 
